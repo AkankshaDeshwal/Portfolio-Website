@@ -29,7 +29,7 @@ const ProjectLog = () => {
        <div className="w-full">
         <h1 className="text-l text-foreground font-semibold font-primary mb-6">Project Log</h1>
         {projects.map((project) => 
-        <ProjectRow project={project}/>)}
+        <ProjectRow key={project.id} project={project}/>)}
         <span className="text-sm text-muted">*Click on the Project name to view. To see the code, visit <span className="italic text-accent-pink-text"><PageLink name='my Github' link='#'/></span></span>
         
        </div>
