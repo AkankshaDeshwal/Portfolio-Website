@@ -3,6 +3,7 @@ import Header from "./sections/Header"
 import Hero from "./sections/Hero"
 import ProjectLog from "./sections/ProjectLog"
 import ProjectShowcase from "./sections/ProjectShowcase"
+import TechBlogs from "./sections/TechBlog"
 
 
 function App() {
@@ -24,6 +25,7 @@ function App() {
         <Hero />
         <ProjectShowcase />
         <ProjectLog />
+        <TechBlogs />
       </div>
     </main>
     
