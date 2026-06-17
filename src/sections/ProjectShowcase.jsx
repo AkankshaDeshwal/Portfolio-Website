@@ -1,9 +1,9 @@
-import projectImage from '../assets/images/img1.png'
+import cryptoImage2 from '../assets/images/crypto_individual_page.png'
 
 const ProjectShowcase = () => {
     return ( 
         <div className="container">
-            <img src={projectImage}  alt='image'/>
+            <img src={cryptoImage2}  alt='image'/>
         </div>
      );
 }
