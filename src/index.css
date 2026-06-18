@@ -6,6 +6,8 @@
   --color-foreground: #1A1A1A;
 
   --color-muted: #6E6E6E;
+
+  --color-slideshow-controls:#E5E7EB;
   
   --color-accent-blue-bg: #2563EB;
   --color-accent-blue-text: #2563EB;
@@ -23,6 +25,8 @@
   --color-background: #0B0C10;
   --color-foreground: #F3F4F6;
   --color-muted: #9CA3AF;
+
+  --color-slideshow-controls:#9CA3AF;
   
   /* Update your dark mode accents to pop on a dark backdrop */
   --color-accent-blue-text: #3B82F6;

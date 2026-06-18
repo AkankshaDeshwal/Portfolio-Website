@@ -22,20 +22,25 @@ const ProjectShowcase = () => {
         console.log('slide number', currentImgIndex)
     }
 
-    useEffect(() => {
-        const autoplay = setInterval(() => {
-            nextSlide()
-        }, 1000)
+    // useEffect(() => {
+    //     const autoplay = setInterval(() => {
+    //         nextSlide()
+    //     }, 3000)
 
-        return () => clearInterval(autoplay)
-    }, [currentImgIndex])
+    //     return () => clearInterval(autoplay)
+    // }, [currentImgIndex])
 
 
     return ( 
-        <div className="container w-ful">
-            <img src={projectImages[currentImgIndex]}  alt='image'/>
-            <ChevronLeft onClick={prevSlide}/>
-            <ChevronRight onClick={nextSlide}/>
+        <div className="container w-full flex flex-col items-center">
+            <img src={projectImages[currentImgIndex]}  alt='image' className='w-full h-100'/>
+            <div className='flex gap-4 bg-slideshow-controls w-full justify-between items-center px-2 py-1'>
+                <h1 className='text-xs font-secondary italic'>Project Info will come here</h1>
+                <div className='flex gap-4  justify-center items-center'>
+                    <ChevronLeft onClick={prevSlide}  size={30} className='p-2 cursor-pointer' strokeWidth={4}/>
+            <ChevronRight onClick={nextSlide} size={30} className='p-2 cursor-pointer' strokeWidth={4}/>
+                </div>
+            </div>
         </div>
      );
 }

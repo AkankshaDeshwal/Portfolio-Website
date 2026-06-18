@@ -23,7 +23,7 @@ function App() {
     
     <main className="w-full bg-background">
       <Header selectedTheme='Light' toggleThemeHandler={toggleTheme} />
-      <div className="flex flex-col items-start gap-10 mt-8 mx-auto p-8 md:max-w-1/2 md:mt-30 mb-20">
+      <div className="flex flex-col items-start gap-10 mt-8 mx-auto p-8 md:max-w-1/2 md:mt-20 mb-20">
         <Hero />
         <ProjectShowcase />
         <ProjectLog />
