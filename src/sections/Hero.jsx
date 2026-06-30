@@ -1,6 +1,6 @@
 import Button from "../components/Button";
 
-const Hero = () => {
+const Hero = ({scrollToLog}) => {
     return ( 
         <div>
             {/* Name */}
@@ -15,7 +15,7 @@ For the last 4 years, I built and managed an independent Ayurvedic business. Run
 
 {/* CTA */}
 <div className="mt-2 font-primary text-foreground text-md">
-    Read my <Button btnText='Project Log' />, <Button btnText='Download Resume' /> or <Button btnText='Get in Touch' />.
+    Read my <Button btnText='Project Log' btnHandler={scrollToLog} />, <Button btnText='Download Resume' /> or <Button btnText='Get in Touch' />.
 </div>
         </div>
      );

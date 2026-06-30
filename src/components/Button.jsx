@@ -1,6 +1,6 @@
-const Button = ({btnText}) => {
+const Button = ({btnText, btnHandler}) => {
     return ( 
-        <button className="font-bold cursor-pointer hover:text-accent-blue-bg">[{btnText}]</button>
+        <button className="font-bold cursor-pointer hover:text-accent-blue-bg" onClick={btnHandler}>[{btnText}]</button>
      );
 }
  
