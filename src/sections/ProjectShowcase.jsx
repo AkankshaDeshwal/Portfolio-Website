@@ -81,7 +81,7 @@ const ProjectShowcase = () => {
 
     return ( 
         <div className="container w-full flex flex-col items-center">
-            <img src={projects[currentImgIndex].image}  alt='image' className='w-full h-90 duration-300'/>
+            <img src={projects[currentImgIndex].image}  alt='image' className='w-full h-70 md:h-90 duration-300'/>
             <div className='flex gap-4 bg-slideshow-controls w-full justify-between items-center px-2 py-1'>
                 <h1 className='text-xs font-secondary italic'>
                     {projects[currentImgIndex].description}

@@ -5,7 +5,7 @@ import GetInTouchButton from "../components/GetInTouchButton";
 const Footer = () => {
     return ( 
         <div className="bg-fixed relative bottom-0 bg-foreground pt-8  flex flex-col justify-center items-center gap-8">
-            <div className="w-1/2 text-center flex flex-col gap-4 items-center py-4">
+            <div className="w-2/3 md:w-1/2 text-center flex flex-col gap-4 items-center py-4">
             <HeartHandshake color="var(--color-muted)" size={30}/> 
                 <h1 className="font-primary text-background text-xl">About Me</h1>
                 <span className="font-secondary text-sm font-thin text-background">I love learning mathematics in my free time.<br /> 
@@ -15,7 +15,7 @@ I believe curiosity, discipline, and consistency matter more than talent. Whatev
             </div>
             <h1 className="text-md text-accent-blue-text font-semibold font-primary">OPEN TO WORK</h1>
 
-            <div className="flex gap-4 font-secondary text-background">
+            <div className="flex gap-2 font-secondary text-background">
         
         <Button btnText="Download Resume"/>
         <GetInTouchButton />

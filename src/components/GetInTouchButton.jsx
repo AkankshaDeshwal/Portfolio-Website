@@ -23,7 +23,7 @@ const GetInTouchButton = () => {
 
 
     if (emailCopied) {
-        return <Button btnText="Email Copied to Clipboard" customStyles="text-accent-blue-bg cur"><Check size={20}/> </Button>
+        return <Button btnText="Email Copied to Clipboard" customStyles="text-accent-blue-bg"><Check size={20}/> </Button>
     }
     return ( 
         <Button btnText="Get in Touch" btnHandler={copyEmail} />
