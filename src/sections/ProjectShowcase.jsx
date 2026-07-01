@@ -32,15 +32,15 @@ const ProjectShowcase = () => {
         },
         {
             image:cryptoHome,
-            description: "Crypto Currency Tracker: Home Page"
+            description: "Crypto Tracker: Home Page"
         },
         {
             image:cryptoSortBy,
-            description: "Crypto Currency Tracker: Sort currencies"
+            description: "Crypto Tracker: Sort currencies"
         },
         {
             image:cryptoIndividualPage,
-            description: "Crypto Currency Tracker: Individual Currency Page with graph"
+            description: "Crypto Tracker: Individual Currency Page with graph"
         },
         {
             image:kanbanBoard,
@@ -73,7 +73,7 @@ const ProjectShowcase = () => {
     useEffect(() => {
         const autoplay = setInterval(() => {
             nextSlide()
-        }, 1000)
+        }, 3000)
 
         return () => clearInterval(autoplay)
     }, [currentImgIndex])
@@ -81,7 +81,7 @@ const ProjectShowcase = () => {
 
     return ( 
         <div className="container w-full flex flex-col items-center">
-            <img src={projects[currentImgIndex].image}  alt='image' className='w-full h-70 md:h-90 duration-300'/>
+            <img src={projects[currentImgIndex].image}  alt='image' className='w-full h-45 md:h-90 duration-300'/>
             <div className='flex gap-4 bg-slideshow-controls w-full justify-between items-center px-2 py-1'>
                 <h1 className='text-xs font-secondary italic'>
                     {projects[currentImgIndex].description}
