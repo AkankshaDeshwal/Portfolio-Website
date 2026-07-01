@@ -8,7 +8,10 @@ const Footer = () => {
             <div className="w-1/2 text-center flex flex-col gap-4 items-center py-4">
             <HeartHandshake color="var(--color-muted)" size={30}/> 
                 <h1 className="font-primary text-background text-xl">About Me</h1>
-                <span className="font-secondary text-sm font-thin text-background">I love learning mathematics in my free time.<br /> I am also a trained Kathak Dancer and a Toastmaster. My strength is my love for my work. Whether I am doing a job or my own business or personal projects, I do it with same joy and that's the joy that brought me back to tech.</span>
+                <span className="font-secondary text-sm font-thin text-background">I love learning mathematics in my free time.<br /> 
+My major strength is my love for my work. Whether it's a personal project, a business, or a professional role, I do it with full commitment and joy.
+
+I believe curiosity, discipline, and consistency matter more than talent. Whatever I take on, I strive to approach it with enthusiasm, dedication, and a genuine love for the process.</span>
             </div>
             <h1 className="text-md text-accent-blue-text font-semibold font-primary">OPEN TO WORK</h1>
 
