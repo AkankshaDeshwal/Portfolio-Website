@@ -1,5 +1,6 @@
 import {HeartHandshake} from "lucide-react"
 import Button from "../components/Button";
+import GetInTouchButton from "../components/GetInTouchButton";
 
 const Footer = () => {
     return ( 
@@ -14,7 +15,7 @@ const Footer = () => {
             <div className="flex gap-4 font-secondary text-background">
         
         <Button btnText="Download Resume"/>
-        <Button btnText="Get In Touch"/>
+        <GetInTouchButton />
             </div>
 
             <div className="w-full text-center py-4 bg-foreground border-t border-muted font-secondary text-muted text-sm">

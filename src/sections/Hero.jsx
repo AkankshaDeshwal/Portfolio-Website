@@ -1,4 +1,5 @@
 import Button from "../components/Button";
+import GetInTouchButton from "../components/GetInTouchButton";
 
 const Hero = ({scrollToLog}) => {
     return ( 
@@ -15,7 +16,7 @@ For the last 4 years, I built and managed an independent Ayurvedic business. Run
 
 {/* CTA */}
 <div className="mt-2 font-primary text-foreground text-md">
-    Read my <Button btnText='Project Log' btnHandler={scrollToLog} />, <Button btnText='Download Resume' /> or <Button btnText='Get in Touch' />.
+    Read my <Button btnText='Project Log' btnHandler={scrollToLog} />, <Button btnText='Download Resume' /> or <GetInTouchButton/>.
 </div>
         </div>
      );
