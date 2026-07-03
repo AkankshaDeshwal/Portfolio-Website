@@ -8,21 +8,21 @@ const ProjectLog = ({projectLogRef}) => {
             year:2026,
             name:'E-Commerce Store',
             techStack:'React, Rest API',
-            link:'#',
+            link:'https://ecomstore.akankshadeshwal.com/',
         },
         {
             id:2,
             year:2026,
             name:'Crypto Currency Tracker',
             techStack:'React, Rest API',
-            link:'#',
+            link:'https://cryptotracker.akankshadeshwal.com/',
         },
         {
             id:3,
             year:2026,
             name:'Kanban Board',
             techStack:'Javascript',
-            link:'#',
+            link:'https://kanbanboard.akankshadeshwal.com/',
         },
     ]
     return ( 
