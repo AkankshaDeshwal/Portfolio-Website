@@ -1,6 +1,7 @@
 import {HeartHandshake} from "lucide-react"
 import Button from "../components/Button";
 import GetInTouchButton from "../components/GetInTouchButton";
+import RESUME from '../../public/AKANKSHA_DESHWAL_RESUME2026.pdf'
 
 const Footer = () => {
     return ( 
@@ -17,7 +18,7 @@ I believe curiosity, discipline, and consistency matter more than talent.</span>
 
             <div className="flex gap-2 font-secondary text-background">
         
-        <Button btnText="Download Resume"/>
+        <a href={RESUME} download="AKANKSHA_DESHWAL_RESUME.pdf"><Button btnText="Download Resume"/></a>
         <GetInTouchButton />
             </div>
 

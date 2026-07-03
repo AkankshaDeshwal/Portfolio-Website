@@ -1,5 +1,6 @@
 import Button from "../components/Button";
 import GetInTouchButton from "../components/GetInTouchButton";
+import RESUME from '../../public/AKANKSHA_DESHWAL_RESUME2026.pdf'
 
 const Hero = ({scrollToLog}) => {
     return ( 
@@ -15,7 +16,7 @@ Today, I build modern web applications with JavaScript and React, with a strong 
 
 {/* CTA */}
 <div className="mt-2 font-primary text-foreground text-md">
-    Read my <Button btnText='Project Log' btnHandler={scrollToLog} />, <Button btnText='Download Resume' /> or <GetInTouchButton/>.
+    Read my <Button btnText='Project Log' btnHandler={scrollToLog} />, <a href={RESUME} download="AKANKSHA_DESHWAL_RESUME.pdf"><Button btnText='Download Resume' /></a> or <GetInTouchButton/>.
 </div>
         </div>
      );
