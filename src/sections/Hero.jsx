@@ -6,13 +6,12 @@ const Hero = ({scrollToLog}) => {
         <div>
             {/* Name */}
             <div>
-                <span className="text-xl text-foreground text font-semibold">Akanksha Deshwal</span>, <span className="text-md italic text-muted">Frontend Developer</span>
+                <span className="text-xl text-foreground text font-semibold">Akanksha Deshwal</span>, <span className="text-md italic text-muted">Software Engineer</span>
             </div>
 
             {/* Short Intro */}
-            <p className="mt-4 text-muted font-secondary text-sm">I’m a frontend developer focused on performance, clean state systems, and product intent.
-
-For the last 4 years, I built and managed an independent Ayurvedic business. Running an enterprise taught me user psychology, growth loops, and exactly why businesses need high-performing software. Now, I write the React code that powers those experiences.</p>
+            <p className="mt-4 text-muted font-secondary text-sm">I'm a software engineer with a background in entrepreneurship and a curiosity for how technology works beneath the surface.<br /> <br />
+Today, I build modern web applications with JavaScript and React, with a strong focus on writing clean, maintainable code and building user-friendly applications. I'm constantly learning, questioning, and exploring not just how to build software, but also understanding the core concepts of technologies behind the code.</p>
 
 {/* CTA */}
 <div className="mt-2 font-primary text-foreground text-md">

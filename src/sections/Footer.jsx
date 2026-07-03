@@ -11,7 +11,7 @@ const Footer = () => {
                 <span className="font-secondary text-sm font-thin text-background">I love learning mathematics in my free time.<br /> 
 My major strength is my love for my work. Whether it's a personal project, a business, or a professional role, I do it with full commitment and joy.
 
-I believe curiosity, discipline, and consistency matter more than talent. Whatever I take on, I strive to approach it with enthusiasm, dedication, and a genuine love for the process.</span>
+I believe curiosity, discipline, and consistency matter more than talent.</span>
             </div>
             <h1 className="text-md text-accent-blue-text font-semibold font-primary">OPEN TO WORK</h1>
 
